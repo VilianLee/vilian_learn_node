@@ -1,0 +1,11 @@
+{
+  "name": "vilian_test_firststep_20180308_mygodisthenamealreadyexistence",
+  "version": "1.0.0",
+  "description": "这是一个测试脚本，千万不要下载",
+  "main": "show.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vilian",
+  "license": "ISC"
+}
