@@ -445,6 +445,7 @@
       "resolved": "https://registry.npmjs.org/verror/-/verror-1.10.0.tgz",
       "version": "1.10.0"
     },
+    "vilian_test_firststep_20180308_mygodisthenamealreadyexistence": "^1.0.1",
     "xmlhttprequest": {
       "integrity": "sha1-9oiNdhdqnkIXaUqhaKAsNm5dRUo=",
       "resolved": "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.3.0.tgz",
