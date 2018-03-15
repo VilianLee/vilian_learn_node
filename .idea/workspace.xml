@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce91e021-ba9e-4929-8490-b603007cd6b6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js" afterPath="$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="simple_http_sever.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="338">
+              <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -137,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1520493324805</updated>
       <workItem from="1520493327010" duration="19553000" />
-      <workItem from="1521008243942" duration="7789000" />
+      <workItem from="1521008243942" duration="15387000" />
     </task>
     <task id="LOCAL-00001" summary="1234">
       <created>1520495726237</created>
@@ -164,7 +162,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27342000" />
+    <option name="totallyTimeSpent" value="34940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="24" width="968" height="883" extended-state="4" />
@@ -217,10 +215,18 @@
     <entry file="file://$PROJECT_DIR$/lesson01/README.md" />
     <entry file="file://$PROJECT_DIR$/lesson01/show.js" />
     <entry file="file://$PROJECT_DIR$/lesson01/package.json" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="978" column="14" lean-forward="false" selection-start-line="978" selection-start-column="14" selection-end-line="978" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="338">
+          <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
           <folding />
         </state>
       </provider>

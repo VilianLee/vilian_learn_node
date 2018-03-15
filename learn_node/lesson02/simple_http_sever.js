@@ -10,7 +10,17 @@
 // HTTP请求第一部分（第一行） GET /index/ HTTP/1.1
 // HTTP方法 GET POST PATCH PUT DELETE OPTIONS HEAD 等
 
-//path: /user , get:获取所有用户 , post:创建用户 , patch: 修改用户信息 , put: 创建 , delete: 删除
+// path: /user , get:获取所有用户 , post:创建用户 , patch: 修改用户信息 , put: 创建 , delete: 删除
+
+// HTTP请求头：  第二行到空行 重要的键值对：
+// Content-Type:请求体的类型（编码、格式等）
+// Content-length: 请求体的长度
+// Accept: 能够接受的返回体类型
+// Cookie : cookie
+
+// HTTP请求体和请求头以一个空行作为分隔符
+
+// HTTP第三部分：  请求体 http-request/response-body
 
 
 console.log('holle node!');
@@ -39,13 +49,33 @@ sever.on('request',(request,response) => { //用户发起url请求
     switch (path){
         case '/user':
 
-            switch (request.method){
+            switch (request.method){ //根据不同的方法对资源进行处理
                 case 'GET':
                     response.statusCode = 200;
                     response.end(JSON.stringify(users));
                     break;
                 case 'POST':
+                    const contentType = request.headers['content-type'];
 
+                    if(contentType !== 'application/json'){
+                        response.statusCode = 400;
+                        response.end('error type');
+                    }
+
+                    let requestBodyStr = "";
+                    request.on('data',function (data) {
+                        requestBodyStr += data.toString();
+                    });
+                    request.on('end',function () {
+                        const user = JSON.parse(requestBodyStr);
+                        users.push(user);
+                        response.statusCode = 200;
+                        response.end(JSON.stringify(users));
+                    });
+                    //const user = {name:Math.floor(Math.random() * 100)};
+                    //users.push(user);
+                    //response.statusCode = 200;
+                    //response.end(JSON.stringify(users));
                     break;
             }
 
