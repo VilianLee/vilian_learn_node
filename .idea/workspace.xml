@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce91e021-ba9e-4929-8490-b603007cd6b6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js" afterPath="$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/package.json" afterPath="$PROJECT_DIR$/node_modules/jQuery/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vilian_test_firststep_20180308_mygodisthenamealreadyexistence/package.json" afterPath="$PROJECT_DIR$/node_modules/vilian_test_firststep_20180308_mygodisthenamealreadyexistence/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="simple_http_sever.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+            <state relative-caret-position="68">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,13 +49,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node-lessons/learnCode/lesson2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node-lessons/learnCode/lesson6/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="64" />
-    <option name="y" value="24" />
-    <option name="width" value="968" />
-    <option name="height" value="883" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="250" />
+    <option name="y" value="149" />
+    <option name="width" value="1849" />
+    <option name="height" value="885" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -71,35 +74,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="node_lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="vilian_learn_node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vilian_learn_node" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="node_lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="vilian_learn_node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vilian_learn_node" type="462c0819:PsiDirectoryNode" />
               <item name="learn_node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node_lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node_lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="learn_node" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
@@ -136,6 +133,7 @@
       <updated>1520493324805</updated>
       <workItem from="1520493327010" duration="19553000" />
       <workItem from="1521008243942" duration="15387000" />
+      <workItem from="1522310860553" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="1234">
       <created>1520495726237</created>
@@ -162,13 +160,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34940000" />
+    <option name="totallyTimeSpent" value="34983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="24" width="968" height="883" extended-state="4" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1851" height="911" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3026316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15072933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -212,6 +209,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson01/README.md" />
     <entry file="file://$PROJECT_DIR$/lesson01/show.js" />
     <entry file="file://$PROJECT_DIR$/lesson01/package.json" />
@@ -219,14 +224,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="978" column="14" lean-forward="false" selection-start-line="978" selection-start-column="14" selection-end-line="978" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_node/lesson02/simple_http_sever.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+        <state relative-caret-position="68">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
