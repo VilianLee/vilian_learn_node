@@ -29,7 +29,7 @@ const qs = require('querystring'); //查询字符串模块
 
 const sever = http.createServer();  //http模块的创建服务器方法
 
-const users = [];
+var users = [];
 
 sever.listen(8880);  //服务器开始监听8880端口
 
