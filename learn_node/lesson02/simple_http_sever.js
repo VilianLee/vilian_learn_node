@@ -23,7 +23,7 @@
 // HTTP第三部分：  请求体 http-request/response-body
 
 
-console.log('holle node!');
+
 const http = require('http');  //调用http模块
 const qs = require('querystring'); //查询字符串模块
 
@@ -44,7 +44,7 @@ sever.on('request',(request,response) => { //用户发起url请求
     const query = qs.parse(queryString);  //将url字符串转化为对象数组
     console.log(query);
 
-    let responseStr ;
+    var responseStr ;
 
     switch (path){
         case '/user':
@@ -62,7 +62,7 @@ sever.on('request',(request,response) => { //用户发起url请求
                         response.end('error type');
                     }
 
-                    let requestBodyStr = "";
+                    var requestBodyStr = "";
                     request.on('data',function (data) {
                         requestBodyStr += data.toString();
                     });
